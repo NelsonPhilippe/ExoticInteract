@@ -1,0 +1,13 @@
+name: ExoInteract
+version: @version@
+main: me.xilidev.exointeract.ExoInteract
+api-version: 1.13.2
+depend: [WorldGuard]
+authors: [XiliTra]
+description: Plugin for ExoticServeurs.
+commands:
+  int:
+    description:  autorise ou non l'interaction avec le bloc visé par notre curseur pour tout le monde (everyone) ou des joueurs spécifiques (JOUEUR).
+    usage: /int set <everyone/JOUEUR> <true/false> <nom de la region>
+    permission: exocommand.use
+    permission-message: Vous n'avez pas la permission d'effectuer ceci.
